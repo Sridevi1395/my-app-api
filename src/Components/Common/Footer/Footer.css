@@ -1,0 +1,16 @@
+footer {
+    padding:10px 0px;
+    text-align: center;
+    font-size: 30px;
+    color:#ffffff;
+    background:grey;
+}
+
+footer .footer_copyright {
+    font-size: 12px;
+}
+
+.footer_copyright a{
+    text-decoration: none;
+    color:#0094da;
+}
