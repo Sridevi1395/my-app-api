@@ -4,10 +4,12 @@ function Questionaire({handleAnswer,showAnswers,handleNextQuestion, response:{qu
     return (
         <>
             <div className="questionClass">
+                <h1>Question:{JSON.parse(localStorage.getItem('index'))+1}</h1>
+
                 <h1 dangerouslySetInnerHTML={{__html:question}} />
             </div>
             <div className="button-overall">
-                {answers.map((answer,idx) => {
+                {answers.map((answer) => {
                     const specialClassName = showAnswers ? (
                         answer === correct_answer ? "green-button": "red-button"
                     ) : "";

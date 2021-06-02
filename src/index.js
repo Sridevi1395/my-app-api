@@ -9,8 +9,11 @@ import App from './App';
 ReactDOM.render (
     <React.StrictMode>
     < Header />
-    <App />
-    <Footer/>
+    < App />
+    < Footer/>
     </React.StrictMode>,
     document.getElementById('root')
+   
 );
+
+//localStorage.clear();
